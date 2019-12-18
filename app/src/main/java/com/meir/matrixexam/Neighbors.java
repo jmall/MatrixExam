@@ -43,7 +43,7 @@ public class Neighbors extends AppCompatActivity {
         for (int i=0;i<MainActivity.countries.size();i++){
             if (MainActivity.countries.get(i).subregion.contains(subregion)){
                 coutryArray[cc] = new String();
-                coutryArray[cc] = MainActivity.countries.get(i).country;
+                coutryArray[cc] = MainActivity.countries.get(i).country + " ("+MainActivity.countries.get(i).nativeName+")";
                 cc ++;
             }
         }
