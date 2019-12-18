@@ -187,10 +187,12 @@ public class MainActivity extends AppCompatActivity {
                 String area = jsonObject.getString("area");
                 String subregion = jsonObject.getString("subregion");
                 String population = jsonObject.getString("population");
+                String nativeName = jsonObject.getString("nativeName");
                 Country countryRecord = new Country();
                 countryRecord.country = country;
                 countryRecord.flag = flag;
                 countryRecord.subregion = subregion;
+                countryRecord.nativeName = nativeName;
                 countryRecord.area = 0;
 //                if (area != null && !area.isEmpty()) {
                 if (area != null && area.compareTo("null") < 0) {
@@ -212,4 +214,5 @@ class Country{
     double area;
     int population;
     String subregion;
+    String nativeName;
 }

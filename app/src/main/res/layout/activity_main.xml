@@ -31,7 +31,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:background="#ffffff00"
+                android:background="#abca48"
                 android:orientation="horizontal">
                 <ImageButton
                     android:id="@+id/atoz"

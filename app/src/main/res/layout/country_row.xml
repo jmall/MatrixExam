@@ -22,12 +22,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <TextView
+        android:id="@+id/nativeName"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/countryFlagIv"
+        android:layout_below="@id/countryNameTv"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#0000ff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
         android:id="@+id/populationTv"
         android:text=""
         android:textColor="@color/colorPrimary"
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/countryFlagIv"
-        android:layout_below="@id/countryNameTv"
+        android:layout_below="@id/nativeName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <TextView
