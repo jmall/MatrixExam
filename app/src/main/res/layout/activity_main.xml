@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="9"
+        android:orientation="vertical">
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:divider="#fff"
+                android:layout_weight="9"
+                android:dividerHeight="5dp"
+                android:clickable="true"
+                android:id="@+id/countryList"
+                ></ListView>
+
+    </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#ffffff00"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/atoz"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/atoz"
+                    android:scaleType="fitXY"
+                    ></ImageButton>
+
+                <ImageButton
+                    android:id="@+id/ztoa"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ztoa"
+                    android:scaleType="fitXY"
+                    ></ImageButton>
+                <ImageButton
+                    android:id="@+id/area"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/area"
+                    android:scaleType="fitXY"
+                    ></ImageButton>
+
+                <ImageButton
+                    android:id="@+id/population"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/population"
+                    android:scaleType="fitXY"
+                    ></ImageButton>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
